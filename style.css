@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+nav{
+     width: 100%;
+     background: #0078d4;
+     height: 48px;
+     line-height: 48px;
+     background-position: left top;
+     background-repeat: repeat-x;
+     background-image: none;
+     border-spacing: 0;
+     white-space: nowrap;
+     display: flex;
+
+}
+
+header nav .botton-rigth{
+    cursor: pointer;
+    min-width: auto;
+    height: 100%;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.nav-img__rigth:hover{
+    
+    background-color: #004578;  
+}
+
+.nav-img__rigth{
+    width: 50px;;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+header nav .botton-two__rigth{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1  1 auto;
+    height: 100%;
+    line-height: 48px;
+    
+ }
+header .nav-img__rigth img{
+    width: 45%;
+    height: 50%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600px;
+    font-size: 1.6rem;
+    font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    list-style: none;
+    align-items: center;
+    
+    
+}
+
+.nav-input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px;
+    width: 340px;
+    height: 100%;
+    
+   
+}
+
+.nav-input .search-icon{
+    width: 240px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2f2;
+    
+}
+.nav-input__label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background-color:#f2f2f2f2;
+    flex-direction: row-reverse;
+    
+}
+
+.nav-input .nav-input__label   img{
+    width: 15px;
+    margin-right: 05px;
+}
+
+.content-meeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    height: 100%;
+    line-height: 48px;
+    cursor: pointer;
+   
+
+}
+
+.content-meeting .content-meeting__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.content-meeting .content-meeting__text:hover{
+    background-color: #004578;
+}
+
+.text{
+    font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600px;
+    font-size: 1.6rem;
+    margin: 0 15px;
+}
+
+.content-meeting .nav-img__rigth a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-meeting .nav-img__rigth #imgPerfil{
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+
+
